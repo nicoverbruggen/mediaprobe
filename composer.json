@@ -1,0 +1,20 @@
+{
+    "name": "nicoverbruggen/mediaprobe",
+    "description": "mediaprobe leverages ffprobe and ffmpeg to extract info from media files",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nico Verbruggen",
+            "email": "mail@nicoverbruggen.be"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "NicoVerbruggen\\MediaProbe\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.0"
+    }
+}
