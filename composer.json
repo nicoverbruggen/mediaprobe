@@ -1,6 +1,6 @@
 {
     "name": "nicoverbruggen/mediaprobe",
-    "description": "mediaprobe leverages ffprobe and ffmpeg to extract info from media files",
+    "description": "MediaProbe leverages `ffprobe` and `ffmpeg` to extract info and cover images from MP3s or other media files.",
     "type": "library",
     "license": "MIT",
     "authors": [
