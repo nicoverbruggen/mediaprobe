@@ -1,11 +1,11 @@
-# Mediaprobe
+# MediaProbe
 
-Mediaprobe leverages `ffprobe` and `ffmpeg` to extract info from media files.
+MediaProbe leverages `ffprobe` and `ffmpeg` to extract info from media files.
 
 ## System requirements
 
 * PHP 8.0
-* ffmpeg installed
+* `ffmpeg` binaries installed
 
 In order for this to work, the `ffprobe` and `ffmpeg` binaries need to be in your path, or aliased. 
 
