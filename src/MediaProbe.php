@@ -29,7 +29,7 @@ class MediaProbe
      */
     public function extractCover(string $destinationPath): bool
     {
-        exec("ffmpeg -v quiet -i {$this->filePath} -an -vcodec copy {$destinationPath} -f",
+        exec("ffmpeg -v quiet -i {$this->filePath} -an -vcodec copy {$destinationPath} -y",
             $o,
             $code
         );
